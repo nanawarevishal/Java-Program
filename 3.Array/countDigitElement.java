@@ -10,22 +10,13 @@ public class countDigitElement {
 
             while(temp !=0)
             {
-                int rem = temp % 10;
-
-                if(rem==0)
-                {
-                    cnt++;
-                }
-                
-                else
-                {
-                    cnt++;
-                }
+                cnt++;
                 
                 temp /=10;
             }
             
-            // System.out.println(str.length()+" ");
+            
+            System.out.println(cnt+" ");
         }
     }
 }

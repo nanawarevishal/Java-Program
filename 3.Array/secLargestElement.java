@@ -6,16 +6,25 @@ public class secLargestElement {
 
         for(int i=0;i<a.length;i++)
         {
-            max = Math.max(max, a[i]);
+            if(max < a[i])
+            {
+                max =a[i];
+            }
+            // max = Math.max(max, a[i]);
         }
 
         int secmax = a[0];
 
         for(int i=0;i<a.length;i++)
         {
+           
             if(a[i] != max)
             {
-                secmax = Math.max(secmax, a[i]);
+                if(secmax < a[i])
+                {
+                    secmax = a[i];
+                }
+                // secmax = Math.max(secmax, a[i]);
             }
         }
 
