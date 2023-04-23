@@ -45,6 +45,7 @@ public class secLargestElement {
             }
         }
 
+        System.out.print("\nThe sencond largest element in the array: ");
         System.out.println(secmax);
     }
     
