@@ -17,7 +17,7 @@ public class distinctElement {
             {
                 System.out.println(a[i]);
             }
-        }    
+        } 
     }
 }
 

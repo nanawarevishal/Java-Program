@@ -9,6 +9,5 @@ class Datatype{
 
 		System.out.println(var1); //Error : 
 		System.out.println(var1); 
-
 	}
 }

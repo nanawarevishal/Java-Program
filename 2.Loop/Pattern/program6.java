@@ -8,23 +8,22 @@
  */
 
 package Pattern;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class program6 {
-    public static void main(String[] args)throws Exception {
+    public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.println("Enter the the number of rows: ");
         int row = Integer.parseInt(br.readLine());
         int temp = row;
 
-        for(int i=1;i<=row;i++)
-        {
+        for (int i = 1; i <= row; i++) {
             int num = temp * i;
-            for(int j=row;j>=i;j--)
-            {
-                System.out.print(num+" ");
+            for (int j = row; j >= i; j--) {
+                System.out.print(num + " ");
                 num -= i;
             }
             temp--;
