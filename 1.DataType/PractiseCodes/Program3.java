@@ -1,3 +1,4 @@
+package PractiseCodes;
 class Demo{
 	
 	public void main(String[] args){
