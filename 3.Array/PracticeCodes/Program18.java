@@ -76,7 +76,7 @@ public class Program18 {
 
 		int[] a = new int[size];
 
-		System.out.println("Enter the aay Elements : ");
+		System.out.println("Enter the array Elements : ");
 		for(int i = 0 ; i < size; i++){
 			
 			a[i] = Integer.parseInt(br.readLine());
