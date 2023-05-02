@@ -5,7 +5,8 @@
         "3.Array",
         "3.Array\\ClassCodes",
         "4.Operators\\ClassCodes",
+        "5.ControlStatement\\ifElse\\Assignments",
         "5.ControlStatement\\ifElse\\ClassCodes",
-        "5.ControlStatement\\ifElse\\Assignments"
+        "5.ControlStatement"
     ]
 }
