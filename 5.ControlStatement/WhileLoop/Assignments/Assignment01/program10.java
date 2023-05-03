@@ -4,37 +4,37 @@
     Output: 2332 is a palindrome number
  */
 
-
 package WhileLoop.Assignments.Assignment01;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class program10 {
-    public static void main(String[] args)throws Exception {
+    public static void main(String[] args) throws Exception {
 
-        BufferedReader br  = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.println("Enter the number : ");
         int num = Integer.parseInt(br.readLine());
 
         int temp = num;
-        int palindrome=0;
+        int palindrome = 0;
 
-        while(temp!=0){
+        while (temp != 0) {
 
-            int rem = temp %10;
+            int rem = temp % 10;
 
-            palindrome =palindrome *10+rem;
-            temp/=10;
+            palindrome = palindrome * 10 + rem;
+            temp /= 10;
 
         }
 
-        if(palindrome==num){
-            System.out.println(num+" is palindrome number.");
+        if (palindrome == num) {
+            System.out.println(num + " is palindrome number.");
         }
 
-        else{
-            System.out.println(num+" is not a palindrome number.");
+        else {
+            System.out.println(num + " is not a palindrome number.");
         }
     }
 }
