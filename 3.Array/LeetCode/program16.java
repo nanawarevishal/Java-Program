@@ -5,7 +5,7 @@
         13.7K
         524
         Companies
-        Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+        Given a non-empty numsay of integers nums, every element appears twice except for one. Find that single one.
 
         You must implement a solution with a linear runtime complexity and use only constant extra space.
 
@@ -32,17 +32,32 @@ import java.util.Arrays;
 public class program16 {
 
     static int singleNumber(int[] nums) {
-        int unique =0;
-
-
         // 1 1 2 2 4
         Arrays.sort(nums);
 
+        if(nums.length>1){
 
-
-
-        return unique;
+            if(nums[0] != nums[1]){
+                return nums[0];
+            }
+            for(int i = 1; i < nums.length - 1 ; i++){
+    
+                if(nums[i] != nums[i + 1] && nums[i] != nums[ i - 1]){
+                    
+                    return nums[i];
+                }
+            }
+            if(nums[nums.length - 2] != nums[nums.length - 1]){
+                return nums[nums.length - 1];
+            }
+        }
         
+        else{
+            return nums[0];
+        }
+        return 0;
+
+
     }
     public static void main(String[] args) {
 

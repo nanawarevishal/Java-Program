@@ -1,17 +1,22 @@
 
 /*
-    Take N as input. print from 1 to N
-    Input : 5
-    Output : 1 2 3 4 5
+  Take N as input. Print all its factors
+  Factors :
+           x is a factor of N % x==0
 
+ Input : 6
+ Output : 1 2 3 6
+
+ Input : 24
+ Output : 1 2 3 4 8 12 24
  */
 
-
 package ForLoop.ClassCodes;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class program1 {
+public class program4 {
     public static void main(String[] args) throws Exception {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -19,10 +24,14 @@ public class program1 {
         System.out.println("Enter the number: ");
         int N = Integer.parseInt(br.readLine());
 
-        for(int i=1;i<=N;i++){
+        for (int i = 1; i <= N; i++) {
 
-            System.out.print(i+" ");
+            if (N % i == 0) {
+                System.out.print(i + " ");
+            }
+
+        
         }
-       
+
     }
 }

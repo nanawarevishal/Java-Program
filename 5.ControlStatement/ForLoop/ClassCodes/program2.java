@@ -1,17 +1,17 @@
 
 /*
-    Take N as input. print from 1 to N
-    Input : 5
-    Output : 1 2 3 4 5
-
+  Take N as input. Print odd integers from 1 to N
+  Input : 6
+  Output : 1 3 5
  */
+
 
 
 package ForLoop.ClassCodes;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class program1 {
+public class program2 {
     public static void main(String[] args) throws Exception {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,8 +21,18 @@ public class program1 {
 
         for(int i=1;i<=N;i++){
 
+            if(i%2==1){
+                System.out.print(i+" ");
+            }
+        }
+
+        System.out.println();
+
+        //Second Approach
+
+        for(int i=1;i<=N;i=i+2){
             System.out.print(i+" ");
         }
-       
+
     }
 }
