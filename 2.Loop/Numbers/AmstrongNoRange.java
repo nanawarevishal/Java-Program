@@ -17,9 +17,18 @@ public class AmstrongNoRange {
         for (int i = start; i <= end; i++) {
             int num = i;
             int sum = 0;
+
+            int num1=i;
+
+            int cnt=0;
+            while(num1 !=0){
+                cnt++;
+                num1 /=10;
+            }
+
             while (num != 0) {
                 int rem = num % 10;
-                sum += (rem * rem * rem);
+                sum += Math.pow(rem, cnt);
                 num /= 10;
 
             }

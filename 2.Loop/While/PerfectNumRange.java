@@ -29,7 +29,6 @@ public class PerfectNumRange {
                 System.out.println(start + " ");
             }
             start++;
-
         }
     }
 }
