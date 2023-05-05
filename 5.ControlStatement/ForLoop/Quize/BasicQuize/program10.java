@@ -14,6 +14,7 @@ public class program10 {
 }
 
 /*
+
  Output :
         program10.java:8: error: variable i might not have been initialized
                 for(int i,j;i<3;i++){
@@ -22,4 +23,5 @@ public class program10 {
         error: compilation failed
 
  Explanation - Here both variable i and j are not initialized, but we are only accessing the value of i, so the error is for i only
+
  */
