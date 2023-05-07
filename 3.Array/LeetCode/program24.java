@@ -34,29 +34,29 @@ public class program24 {
     static int[][] matrixReshape(int[][] mat, int r, int c) {
 
         int res[][] = new int[r][c];
-
-        // int mr = mat.length;
-        // int mc = mat[0].length;
-
+        
         int mr=0;
         int mc=0;
 
-        // System.out.println(mat[0].length);
+        boolean falg = false;
+        
+        for(int i=0;i<mat.length;i++){
+            for(int j=0;j<mat[0].length;j++){
+               res[mr][mc] = mat[i][j];
 
-        for(int i=0;i<r;i++){
-            for(int j=0;j<c;j++){
+               mc++;
+               if(mc==c){
+                mr++;
+                mc=0;
+               }
 
-                res[i][j] = mat[mr][mc];
-                
-                mc++;
-                if(mc==mat[0].length){
-                    mr++;
-                    mc=0;
-                }
-
-                if(mr==mat.length){
-                    break;
-                }
+               if(mr==r){
+                falg = true;
+                break;
+               }
+            }
+            if(falg){
+                break;
             }
         }
         return res;
@@ -68,14 +68,14 @@ public class program24 {
         int[][] nums= {{1,2},{3,4}};
 
         // System.out.println(nums.length);
-        int r=1;
-        int c=4;
+        int r=2;
+        int c=2;
 
         int[][] a = matrixReshape(nums, r, c);
 
-        for(int i=0;i<a.length;i++){
-            for(int j=0;j<a[0].length;i++){
-                System.out.println(a[i][j]);
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+                System.out.print(a[i][j]+" ");
             }
         }
     }
