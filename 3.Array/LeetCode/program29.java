@@ -43,6 +43,7 @@ public class program29 {
         boolean flag = false;
 
         flag = issoted(nums);
+        // System.out.println(flag);
 
         if (flag) {
             return flag;
@@ -66,12 +67,17 @@ public class program29 {
                     }
 
                     if (cnt == 2) {
+
                         nums[i] = nums[i] - j;
+                        System.out.println(nums[i]);
                         flag = issoted(nums);
+                        
+                        // System.out.println(flag);
 
                         if (flag) {
                             return flag;
                         }
+                        break;
                     }
                 }
 
@@ -89,8 +95,7 @@ public class program29 {
 
             for (int j = i + 1; j < nums.length; j++) {
 
-                if (nums[i] > nums[j]) {
-
+                if (nums[i] >= nums[j]) {
                     return false;
                 }
             }
@@ -99,7 +104,7 @@ public class program29 {
     }
 
     public static void main(String[] args) {
-        int nums[] = { 5, 8, 3 };
+        int nums[] = {15,20,17,7,16};
 
         // int a[] = primeSubOperation(nums);
 
