@@ -54,7 +54,7 @@ public class Program14 {
                 a[i] = a[i+1];
             }
     
-            // a[a.length-1] =0;
+            a[a.length-1] =0;
     
             System.out.println("The element of the array are: ");
             for(int i=0;i<a.length;i++){

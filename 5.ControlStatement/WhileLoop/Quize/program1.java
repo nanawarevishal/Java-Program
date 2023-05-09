@@ -5,6 +5,5 @@ public class program1 {
         
         while(true)
             System.out.println("Hello, Core2Web");
-
     }
 }
