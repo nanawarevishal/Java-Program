@@ -14,7 +14,7 @@ All palindrome substring are :
 "bb" , "abba" ,"aea","eae"
  */
 
- package LeetCode;
+ package LeetCode_String;
 
  import java.util.ArrayList;
  
