@@ -31,6 +31,7 @@
 
 package LeetCode;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class program58 {
@@ -53,12 +54,36 @@ public class program58 {
             mpp.put(nums[i], i);
         }
         return ans;
+
+        // Arrays.sort(nums);
+
+        // int left = 0;
+        // int right = nums.length-1;
+
+
+        // while(left<right){
+
+        //     if(nums[left]+nums[right]<target){
+        //         left++;
+        //     }
+
+        //     if(nums[left]+nums[right]>target){
+        //         right--;
+        //     }
+
+        //     if(nums[left]+nums[right]==target){
+        //         System.out.println("Found"+nums[left]+" "+nums[right]);
+        //         break;
+        //     }
+        // }
+
+        // return ans;
     }
 
     public static void main(String args[]) {
 
-        int[] nums = { 2, 7, 11, 15 };
-        int target = 9;
+        int[] nums = { 3,2,4,8,12,43};
+        int target = 14;
 
         int[] a = twoSum(nums, target);
 
