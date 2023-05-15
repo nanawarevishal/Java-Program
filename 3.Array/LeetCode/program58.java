@@ -43,10 +43,9 @@ public class program58 {
         HashMap<Integer, Integer> mpp = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
-            int num = nums[i];
-            int Needed = target - num;
-            if (mpp.containsKey(Needed)) {
-                ans[0] = mpp.get(Needed);
+            int val = target - nums[i];
+            if (mpp.containsKey(val)) {
+                ans[0] = mpp.get(val);
                 ans[1] = i;
                 return ans;
             }

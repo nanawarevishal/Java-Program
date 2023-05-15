@@ -32,7 +32,6 @@ import java.util.Arrays;
 
 public class program60 {
     static int threeSumClosest(int[] nums, int target) {
-
         int res=0;
         int min = Integer.MAX_VALUE;
         Arrays.sort(nums);
