@@ -1,6 +1,6 @@
 package ClassCodes;
 
-import java.io.BufferedReader;
+
 import java.io.InputStreamReader;
 
 public class program3 {
@@ -10,9 +10,13 @@ public class program3 {
 
         System.out.println("Enter the character: ");
         char ch = (char)isr.read();
-
         System.out.println(ch);
+        isr.close();
 
+        System.out.println("Enter the character: ");
+
+        char ch1 = (char)isr.read();
+        System.out.println(ch1);
 
     }
 }
