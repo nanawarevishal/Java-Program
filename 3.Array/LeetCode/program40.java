@@ -1,5 +1,6 @@
 
 /*
+
  219. Contains Duplicate II
                 Easy
                 4.8K
@@ -13,7 +14,6 @@
                 Input: nums = [1,2,3,1], k = 3
                 Output: true
 
-
                 Example 2:
                 Input: nums = [1,0,1,1], k = 1
                 Output: true
@@ -21,6 +21,8 @@
                 Example 3:
                 Input: nums = [1,2,3,1,2,3], k = 2
                 Output: false
+
+
  */
 
 
@@ -30,29 +32,27 @@ public class program40 {
 
     static boolean containsNearbyDuplicate(int[] nums, int k) {
 
-        boolean flag = false;
+        int left = 0;
+        int right = nums.length-1;
 
-        for(int i=0;i<nums.length;i++){
+        while(left<right){
 
-            for(int j=i+1;j<nums.length;j++){
-
-                if(nums[i]==nums[j] && Math.abs(i-j)<=k){
-                    return true;
-                }
+            int diff = Math.abs(left-right);
+            if(nums[left]==nums[right] && diff<=k){
+                return true;
             }
+
+
         }
 
-
-
-        return flag;
-
+        return false;
         
     }
 
     public static void main(String[] args) {
         
-        int[] nums = {1,2,3,1,2,3};
-        int k=2;
+        int[] nums = {1,0,1,1};
+        int k=1;
 
         System.out.println(containsNearbyDuplicate(nums, k));
     }
