@@ -15,7 +15,9 @@ public class program15 {
 
        while(st.hasMoreElements()){
 
-            System.out.println(st.nextElement());
+            System.out.println( st.nextElement().getClass().getClassLoader());
+
+            // st.nextElement().getClass().getClassLoader();
        }
     }
 }

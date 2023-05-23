@@ -1,7 +1,7 @@
 
 package ClassCodes;
 
-public class program1 {
+public class methodDemo1 {
 
     int x =10;
     static void fun(){
@@ -15,9 +15,10 @@ public class program1 {
 
     public static void main(String[] args) {
         
-        program1 obj = new program1();
+        methodDemo1 obj = new methodDemo1();
 
-        gun();
+        obj.gun();
+        // gun();
     }
 }
 
