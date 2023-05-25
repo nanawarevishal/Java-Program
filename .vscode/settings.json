@@ -10,7 +10,8 @@
         "5.ControlStatement\\ifElse\\ClassCodes",
         "6.String",
         "7.InputOutput",
-        "8,Method"
+        "8.Method",
+        "9.Array"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
