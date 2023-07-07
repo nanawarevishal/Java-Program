@@ -12,5 +12,6 @@ public class program6 {
 
         System.out.println(str1);
         System.out.println(str2);
+        
     }
 }
