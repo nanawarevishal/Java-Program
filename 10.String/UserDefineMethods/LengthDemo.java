@@ -4,8 +4,13 @@ public class LengthDemo {
 
     static int length(String str){
         char ch[] = str.toCharArray();
+
+        int count=0;
+        for(char ch1:ch){
+            count++;
+        }
         
-        return ch.length;
+        return count;
         
     }
     public static void main(String[] args) {

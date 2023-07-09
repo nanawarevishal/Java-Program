@@ -14,5 +14,5 @@
         "9.Array",
         "10.String"
     ],
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": false
 }
