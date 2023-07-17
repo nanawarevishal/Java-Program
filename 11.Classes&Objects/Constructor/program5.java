@@ -1,6 +1,14 @@
 package Constructor;
 
-class ConstructorDemo{
+
+class parent{
+    int z=10;
+
+}
+
+class ConstructorDemo extends parent{
+
+    int x =10;
 
     ConstructorDemo(){
 
@@ -8,6 +16,7 @@ class ConstructorDemo{
     }
 
     void fun(){
+        System.out.println(super.z);
         ConstructorDemo obj = new ConstructorDemo();
     }
 
