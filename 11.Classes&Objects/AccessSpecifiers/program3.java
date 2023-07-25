@@ -4,6 +4,7 @@ class employee{
     int empId = 10;
     String empName = "Raj";
     static int salary = 5000;
+    static int a = 90;
 
     void empInfo(){
         System.out.println("empId"+empId);
