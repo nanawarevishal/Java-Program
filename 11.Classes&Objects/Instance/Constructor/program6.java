@@ -1,4 +1,4 @@
-package Constructor;
+package Instance.Constructor;
 
 class demo{
     int x =10;

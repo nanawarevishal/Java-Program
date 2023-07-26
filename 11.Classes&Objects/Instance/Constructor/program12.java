@@ -1,4 +1,4 @@
-package Constructor;
+package Instance.Constructor;
 
 class c2wdemo1{
     int numCorces = 10;

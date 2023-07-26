@@ -1,4 +1,4 @@
-package Constructor;
+package Instance.Constructor;
 
 class mackdee{
     int noOfItem = 10;

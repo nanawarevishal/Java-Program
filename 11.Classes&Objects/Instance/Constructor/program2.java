@@ -1,4 +1,4 @@
-package Constructor;
+package Instance.Constructor;
 
 class core2web{
     int x=10;

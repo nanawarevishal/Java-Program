@@ -1,4 +1,4 @@
-package Constructor;
+package Instance.Constructor;
 
 class project{
     String projectName = "Online Education System";
