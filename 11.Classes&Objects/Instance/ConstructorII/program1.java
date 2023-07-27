@@ -14,14 +14,13 @@ class demo1{
         System.out.println(x);
         System.out.println(this.x);
         System.out.println(this);
-
     }
 
     public static void main(String[] args) {
         demo1 obj1 = new demo1();
-        // demo1 obj2 = new demo1();
-        // demo1 obj3 = new demo1();
-        // demo1 obj4 = new demo1();
+        demo1 obj2 = new demo1();
+        demo1 obj3 = new demo1();
+        demo1 obj4 = new demo1();
         System.out.println(obj1);
 
         obj1.fun();
