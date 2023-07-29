@@ -13,7 +13,8 @@
         "8.Method",
         "9.Array",
         "10.String",
-        "11.Classes&Objects"
+        "11.Classes&Objects",
+        "12.Inheritance"
     ],
     "java.debug.settings.onBuildFailureProceed": false
 }
