@@ -14,7 +14,8 @@
         "9.Array",
         "10.String",
         "11.Classes&Objects",
-        "12.Inheritance"
+        "12.Inheritance",
+        "13.Polymorphism"
     ],
     "java.debug.settings.onBuildFailureProceed": false
 }

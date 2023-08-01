@@ -1,4 +1,4 @@
-package InheritanceClassCodes;
+package InstanceInParent.InheritanceClassCodes;
 
 class Parent{
 
