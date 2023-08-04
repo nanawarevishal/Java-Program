@@ -23,9 +23,6 @@ class child20 extends Parent20{
         System.out.println("String");
         return "String";
     }
-
-
-
 }
 
 class Client20{
