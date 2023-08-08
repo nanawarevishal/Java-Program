@@ -24,7 +24,7 @@ class Client5{
         Parent5 obj = new Child5();
         obj.career();
         obj.marry();
-        obj.income();
+        // obj.income();
     }
 
 }

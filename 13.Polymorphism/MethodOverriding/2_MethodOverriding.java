@@ -44,5 +44,6 @@ class Client2{
         Parent2 obj = new child2();
         obj.Property();
         obj.marry();
+        obj.fun();
     }
 }
