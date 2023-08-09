@@ -26,6 +26,9 @@ class client9{
         parent9 obj = new child9();
         obj.fun();
         obj.gun();
+
+        child9 obj1 = new child9();
+        obj1.gun();
         
     }
 }
