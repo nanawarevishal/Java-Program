@@ -16,7 +16,8 @@
         "11.Classes&Objects",
         "12.Inheritance",
         "13.Polymorphism",
-        "14.Abstraction&Interface"
+        "14.Abstraction&Interface",
+        "15.InnerClass"
     ],
     "java.debug.settings.onBuildFailureProceed": false
 }
