@@ -1,5 +1,5 @@
 
-
+// rm *.class to remove all .class file
 package NormalIC;
 
 

@@ -5,6 +5,7 @@ class Outer3{
 
     int x =20;
     static int y =40;
+    
     class Inner3{
 
         int x = 10;
