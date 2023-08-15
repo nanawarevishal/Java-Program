@@ -19,6 +19,7 @@ class Outer1{
 class Client1{
 
     public static void main(String[] args) {
+        
         Outer1.Inner1 obj = new Outer1.Inner1();
         obj.m2();
         
