@@ -14,6 +14,7 @@ class Outer1{
             System.out.println("Inner m2");
         }
     }
+    
 }
 
 class Client1{
