@@ -14,6 +14,7 @@ class Parent4{
 
 class child4 extends Parent4{
     int y = 20;
+    int x =90;
     child4(){
 
         System.out.println("In child Constructor");
@@ -27,6 +28,7 @@ class client4{
     public static void main(String[] args) {
         child4 obj = new child4();
         obj.access();
+        
 
     }
 }

@@ -49,8 +49,9 @@ class child6 extends Parent6{
 
 class client6{
     public static void main(String[] args) {
-        child6 obj = new child6();
-
+        Parent6 obj = new child6();
+        System.out.println(obj.x);
+        System.out.println(obj.y);
         // obj.access();
     }
 }
