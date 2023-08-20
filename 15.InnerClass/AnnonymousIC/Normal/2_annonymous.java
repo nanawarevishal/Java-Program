@@ -34,6 +34,8 @@ class Client2{
         obj.marry();
 
         System.out.println(obj.x);
+
+        // if we try to create new class object then whole class is created 
         
         
     }

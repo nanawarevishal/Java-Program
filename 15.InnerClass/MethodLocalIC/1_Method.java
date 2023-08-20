@@ -8,6 +8,20 @@ ex Bank class
             class saving
 
         take loan
+
+
+2.class Phone pay:
+            method:
+                transaction:
+                        class Bank names:
+
+
+3.class Play Store:
+            method:
+                Update:
+                    class Apps:
+
+3.
     
  */
 
