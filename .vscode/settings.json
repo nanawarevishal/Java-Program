@@ -18,7 +18,8 @@
         "13.Polymorphism",
         "14.Abstraction&Interface",
         "15.InnerClass",
-        "16.ExceptionHandling"
+        "16.ExceptionHandling",
+        "17.Multithreading"
     ],
     "java.debug.settings.onBuildFailureProceed": false
 }
