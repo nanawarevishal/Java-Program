@@ -22,9 +22,9 @@ class ThreadDemo1{
 
         th.setPriority(11); // illeagle aurgument exception
 
-        MyThread1 obj = new MyThread1();
-        obj.start();
-        obj.start(); // illegal thread state exception
+        MyThread1 obj = new MyThread1();  
+        obj.start();                       // call to vmthread.create method call
+        obj.start();                       // illegal thread state exception
         
     }
 }
