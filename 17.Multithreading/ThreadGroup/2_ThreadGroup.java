@@ -8,6 +8,12 @@ class MyThread2 extends Thread{
 
     public void run(){
         System.out.println(Thread.currentThread());
+
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            System.out.println(e.toString());
+        }
     }
 }
 
@@ -34,6 +40,14 @@ class ThreadDemo2{
         obj4.start();
         obj5.start();
         obj6.start();
+
+        cThreadGroup.interrupt();
+
+        // System.out.println(cThreadGroup.activeCount());
+        // System.out.println(cThreadGroup.activeGroupCount());
+
+        System.out.println(pThreadGroup.activeCount());
+        System.out.println(pThreadGroup.activeGroupCount());
 
 
     }
