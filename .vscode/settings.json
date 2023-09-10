@@ -20,7 +20,8 @@
         "11.Classes&Objects",
         "10.String",
         "1.DataType",
-        "18.Package"
+        "18.Package",
+        "19.Collection"
     ],
     "java.debug.settings.onBuildFailureProceed": false
 }
