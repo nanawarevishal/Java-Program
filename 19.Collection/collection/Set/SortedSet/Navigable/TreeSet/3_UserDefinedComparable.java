@@ -2,7 +2,7 @@ package collection.Set.SortedSet.Navigable.TreeSet;
 
 import java.util.TreeSet;
 
-class Myclass{
+class Myclass implements Comparable{
 
     String str = null;
 
@@ -14,8 +14,8 @@ class Myclass{
         return str;
     }
 
-    public int compareTo(Myclass obj){
-        return (obj.str).compareTo(this.str);
+    public int compareTo(Object obj){
+        return str.compareTo(((Myclass)obj).str);
     }
 }
 
