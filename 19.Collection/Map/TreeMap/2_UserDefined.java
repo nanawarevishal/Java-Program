@@ -47,13 +47,22 @@ class sortByPlatform implements Comparator{
     }
 }
 
+class sortByYear implements Comparator{
+
+    public int compare(Object obj1,Object obj2){
+        return ((PlatForm)obj1).year - ((PlatForm)obj2).year;
+    }
+
+}
+
 class Client{
 
      public static void main(String[] args) {
         
-        TreeMap tm = new TreeMap<>(new sortByPlatFormName());
+        // TreeMap tm = new TreeMap<>(new sortByPlatFormName());
         // TreeMap tm = new TreeMap<>(new sortByFoundedYear());
         // TreeMap tm = new TreeMap<>(new sortByPlatform());
+        TreeMap tm = new TreeMap<>(new sortByYear());
 
         tm.put(new PlatForm("YouTube", 2005), "Google");
         tm.put(new PlatForm("Instagram", 2013), "Meta");
