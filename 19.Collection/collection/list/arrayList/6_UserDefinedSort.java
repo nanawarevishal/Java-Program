@@ -44,9 +44,12 @@ class Client6{
         ls.add(new Employee("Kanha", 150000.00f));
         ls.add(new Employee("Badhe", 175000.00f));
 
+        // System.out.println(ls);
+
+        Collections.sort(ls,new SortByName());
+
         System.out.println(ls);
 
-        // Collections.sort(ls,new SortByName());
         Collections.sort(ls,new SortBySal());
 
         System.out.println(ls);
