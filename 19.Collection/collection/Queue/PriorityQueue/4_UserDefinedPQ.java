@@ -7,6 +7,7 @@ class ProjectInfo implements Comparable {
 	String pName = null;
 	int teamCount = 0;
 	int duration = 0;
+	
 	ProjectInfo(String pName, int teamCount, int duration) {
 		
 		this.pName = pName;
