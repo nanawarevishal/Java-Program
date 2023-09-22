@@ -13,12 +13,16 @@ class Movies implements Comparable{
     }
 
     public String toString(){
-        return movieName +"-"+totColl;
+        return "{ Movie: "+movieName +" Collection : "+totColl+" }\n";
     }
 
+    // public int compareTo(Object obj){
+    //     return movieName.compareTo(((Movies)obj).movieName); // For Ascending Order Sorting the data
+    //     // return -(movieName.compareTo(((Movies)obj).movieName)); // For Descending Order Sorting the data
+    // }
+
     public int compareTo(Object obj){
-        return movieName.compareTo(((Movies)obj).movieName); // For Ascending Order Sorting the data
-        // return -(movieName.compareTo(((Movies)obj).movieName)); // For Descending Order Sorting the data
+        return  (int)(totColl - ((Movies)obj).totColl);
     }
 }
 
@@ -33,6 +37,7 @@ class Client4{
         ts.add(new Movies("OMG-2", 250.00f));
         ts.add(new Movies("Jailer", 350.67f));
         ts.add(new Movies("Iron-Man", 3450.67f));
+        ts.add(new Movies("Iron-Man-3", 10.45f));
 
 
         System.out.println(ts);

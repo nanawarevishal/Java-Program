@@ -30,5 +30,7 @@ class Client3{
         ts.add(new Myclass("Ashish"));
         ts.add(new Myclass("Rahul"));
         ts.add(new Myclass("Badhe"));
+
+        System.out.println(ts);
     }
 }
