@@ -20,8 +20,7 @@ class Parent3{
     }
 }
 
-class child3
- extends Parent3{
+class child3 extends Parent3{
 
     child3
     (){

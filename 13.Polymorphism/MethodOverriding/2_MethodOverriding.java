@@ -30,9 +30,9 @@ class child2 extends Parent2{
         System.out.println("Child selected Girl");
     }
 
-    // static void fun(){
-    //     System.out.println("In child Static method");
-    // }
+    static void fun(){
+        System.out.println("In child Static method");
+    }
 
     // public static void main(String[] args) {
     //     fun();
