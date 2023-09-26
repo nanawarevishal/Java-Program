@@ -1,4 +1,4 @@
-package JavaFileHandling;
+package File.JavaFileHandling;
 
 import java.io.*;
 
