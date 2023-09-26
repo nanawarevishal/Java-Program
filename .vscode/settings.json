@@ -21,7 +21,8 @@
         "10.String",
         "1.DataType",
         "18.Package",
-        "19.Collection"
+        "19.Collection",
+        "21.FileHandling"
     ],
     "java.debug.settings.onBuildFailureProceed": false
 }
