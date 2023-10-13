@@ -4,7 +4,7 @@ package MethodOverriding;
 class Parent18{
 
     int fun(){
-        System.out.println("In Parent fun");
+        System.out.println("In Parent funs");
         return 0;
     }
 }
@@ -15,10 +15,10 @@ class child18 extends Parent18{
         System.out.println("Child selected Girl");
     }
 
-    float fun(){
-        System.out.println("In child fun");
-        return 0.0f;
-    }
+    // float fun(){
+    //     System.out.println("In child fun");
+    //     return 0.0f;
+    // }
 
 }
 

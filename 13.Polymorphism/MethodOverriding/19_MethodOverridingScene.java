@@ -8,7 +8,7 @@ class Parent19{
     }
 }
 
-class child19 {
+class child19{
 
      void marry(){
         System.out.println("Child selected Girl");
