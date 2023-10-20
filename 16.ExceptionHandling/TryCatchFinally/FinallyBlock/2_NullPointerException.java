@@ -1,6 +1,6 @@
 package TryCatchFinally.FinallyBlock;
 
-class NullPointerExcept{
+class NullPointerExcept1{
 
     void fun(){
 
@@ -12,7 +12,7 @@ class NullPointerExcept{
     public static void main(String[] args) {
 
         System.out.println("Start Main");
-        NullPointerExcept obj = new NullPointerExcept();
+        NullPointerExcept1 obj = new NullPointerExcept1();
         obj.fun();
         obj = null;
         obj = null;
