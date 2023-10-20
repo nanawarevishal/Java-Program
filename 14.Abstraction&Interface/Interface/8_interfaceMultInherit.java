@@ -21,7 +21,7 @@ class child8 implements Parent86,Parent87{
 
     static {
         
-        System.out.println(x);
+        System.out.println(x);    // Ambiguity if both
         System.out.println("In static block");
     }
 }
