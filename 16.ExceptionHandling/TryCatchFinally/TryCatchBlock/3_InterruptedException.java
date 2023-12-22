@@ -15,8 +15,8 @@ class InterruptedExcept{
             }
              catch (InterruptedException e) {
             
-            System.out.println("Exception occured");
-             }
+                System.out.println("Exception occured");
+            }
         }
     }
 }
