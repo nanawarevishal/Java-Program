@@ -13,12 +13,12 @@ class MyThread2 extends Thread{
     static Thread nmMain = null;
 
     public void run(){
-        try {
+        // try {
             
-            nmMain.join();
-        } catch (InterruptedException e) {
+        //     // nmMain.join();
+        // } catch (InterruptedException e) {
            
-        }
+        // }
 
         for(int i=0;i<=3;i++){
             System.out.println("In Thread-0 ");
