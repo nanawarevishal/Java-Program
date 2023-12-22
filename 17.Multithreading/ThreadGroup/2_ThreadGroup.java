@@ -41,7 +41,7 @@ class ThreadDemo2{
         obj5.start();
         obj6.start();
 
-        cThreadGroup.interrupt();
+        // cThreadGroup.interrupt();
 
         // System.out.println(cThreadGroup.activeCount());
         // System.out.println(cThreadGroup.activeGroupCount());

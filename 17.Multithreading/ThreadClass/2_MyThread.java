@@ -3,7 +3,7 @@ package ThreadClass;
 
 class MyThread extends Thread{
 
-   public void run() { //throws InterruptedException{
+   public void run(){ //throws InterruptedException{
 
         for(int i=0;i<10;i++){
 
