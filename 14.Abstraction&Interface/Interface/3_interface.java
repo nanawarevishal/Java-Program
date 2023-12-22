@@ -6,6 +6,7 @@ interface parent{
     static int y =29;
     
     static void gun(){
+        System.out.println(x);
         System.out.println("interface gun method");
     }
     
