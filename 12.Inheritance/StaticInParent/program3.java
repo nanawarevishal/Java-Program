@@ -5,6 +5,8 @@ class Parent3{
     static int x = 10;
 
     static {
+
+        // static int x =10;
         System.out.println("In parent static block");
     }
 
