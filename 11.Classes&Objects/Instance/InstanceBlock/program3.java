@@ -2,7 +2,11 @@ package Instance.InstanceBlock;
 
 public class program3 {
 
-    int x = 10;
+    static int x;
+
+    static{
+        System.out.println("In static block 1"+x);
+    }
 
     {
         System.out.println("instatnce block");
@@ -16,8 +20,14 @@ public class program3 {
     
     public static void main(String[] args) {
 
-        program3 obj = new program3();
+        // program3 obj = new program3();
+        x = 10;
+    
 
+    }
+
+    static{
+        System.out.println("In static block 2"+x);
     }
 
     {
