@@ -2,6 +2,9 @@ package AbstractClass;
 
 abstract class Parent5{
 
+    int x  =10;
+    static int y = 20;
+
     void career(){
         System.out.println("Doctor");
     }
