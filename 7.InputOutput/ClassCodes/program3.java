@@ -4,6 +4,7 @@ package ClassCodes;
 import java.io.InputStreamReader;
 
 public class program3 {
+    
     public static void main(String[] args)throws Exception {
        
         InputStreamReader isr = new InputStreamReader(System.in);
