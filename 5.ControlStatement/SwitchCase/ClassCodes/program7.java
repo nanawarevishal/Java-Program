@@ -22,6 +22,6 @@ public class program7 {
             default:
                 System.out.println("No Match Found...!");
                 break;
+        }
     }
-}
 }
