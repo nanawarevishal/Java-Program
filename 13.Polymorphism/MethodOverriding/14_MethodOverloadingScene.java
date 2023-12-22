@@ -2,11 +2,11 @@ package MethodOverriding;
 
 class Demo14{
 
-    void fun(float x,int y){
+    void fun(int x,int y){
         System.out.println("Char Para");
     }
 
-    void fun(int x,float y){
+    void fun(float x,float y){
         System.out.println("Int Para");
     }
 }
