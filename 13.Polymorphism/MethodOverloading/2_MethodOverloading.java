@@ -9,9 +9,9 @@ class demo1{
         return x;
     }
 
-    // float fun(int y){                                    // fun(int)
-    //     return y;
-    // }
+    float fun(int y,int x){                                    // fun(int)
+        return y;
+    }
 }
 
 

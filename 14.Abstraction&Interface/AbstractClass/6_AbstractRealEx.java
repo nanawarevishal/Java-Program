@@ -2,6 +2,8 @@ package AbstractClass;
 
 abstract class CompanyName{
 
+    int x =10;
+
     abstract void EmpRole();
 
     void workingTime(){

@@ -14,12 +14,13 @@ class NullPointerExcept1{
         System.out.println("Start Main");
         NullPointerExcept1 obj = new NullPointerExcept1();
         obj.fun();
-        obj = null;
-        obj = null;
+        // obj = null;
+        // obj = null;
 
         try {
             
             obj.gun();
+            // return;
         } catch (ArithmeticException e) {
             
             System.out.println("Null Pointer Exception Occured...!");

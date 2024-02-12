@@ -5,6 +5,10 @@ abstract class Parent5{
     int x  =10;
     static int y = 20;
 
+    Parent5(){
+        System.out.println("In Abstarct Constructor..!");
+    }
+
     void career(){
         System.out.println("Doctor");
     }
